@@ -153,19 +153,19 @@ EOF  all  create  destroy  help  quit  show  update
 
 ## API
 This project have 6 entities, all HTTP methods are supported:
-*/amenities
-*/cities
-*/places
-*/reviews
-*/states
-*/users
+* /amenities
+* /cities
+* /places
+* /reviews
+* /states
+* /users
 Note: Resources have relations.
 
 The available nested routes are:
 
-*/states/<state_id>/cities
-*/places/<place_id>/reviews
-*/cities/<city_id>/places
+* /states/<state_id>/cities
+* /places/<place_id>/reviews
+* /cities/<city_id>/places
 
 
 ## Bugs
