@@ -14,6 +14,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [File Descriptions](#file-descriptions)
 * [Usage](#usage)
 * [Examples of use](#examples-of-use)
+* [API](#api)
 * [Bugs](#bugs)
 * [Authors](#authors)
 * [License](#license)
@@ -150,6 +151,23 @@ EOF  all  create  destroy  help  quit  show  update
 (hbnb) quit
 ```
 
+## API
+This project have 6 entities, all HTTP methods are supported:
+*/amenities
+*/cities
+*/places
+*/reviews
+*/states
+*/users
+Note: Resources have relations.
+
+The available nested routes are:
+
+*/states/<state_id>/cities
+*/places/<place_id>/reviews
+*/cities/<city_id>/places
+
+
 ## Bugs
 No known bugs at this time. 
 
@@ -158,6 +176,7 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+Vasif Orujzade - [Github](https://github.com/vasifvortex) 
 
 Second part of Airbnb: Joann Vuong
 ## License
