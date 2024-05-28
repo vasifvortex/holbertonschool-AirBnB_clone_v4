@@ -20,6 +20,7 @@ button {
 }
 button:hover {
     opacity: 0.9;
+    cursor: pointer;
 }
 .filters div {
     display: inline-grid;
